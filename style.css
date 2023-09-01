@@ -2,8 +2,39 @@ h1 {
   background-color: blue;
 }
 p {
-  background-color: darkgreen;
+  background-color: hsl(180, 89%, 7%);
 }
 .chapter {
-  color: aqua;
+  color: rgb(153, 168, 168);
+  background-color: rgb(238, 230, 230);
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 30px;
+}
+#pool {
+  color: rgb(151, 168, 151);
+}
+.text-bolt {
+  font-weight: bold;
+}
+.mark {
+  background-color: blueviolet;
+}
+.del {
+  text-decoration: line-through;
+}
+.italic {
+  font-style: italic;
+}
+.box {
+  background-color: crimson;
+  width: 400px;
+  height: 100px;
+  padding: 20px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin: 50px;
 }
