@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 h1 {
@@ -52,10 +52,28 @@ p {
   color: white;
   transition: all 0.2s ease;
 }
-.btn:hover{
+.btn:hover {
   background-color: blue;
   border: 2px solid crimson;
   color: black;
   padding: 8px 20px;
   font-weight: bold;
+}
+nav {
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section div {
+  background-color: khaki;
+}
+section {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+  gap: 10px;
 }
