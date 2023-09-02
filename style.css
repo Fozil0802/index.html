@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 h1 {
   background-color: blue;
 }
@@ -29,9 +32,10 @@ p {
   font-style: italic;
 }
 .box {
+  display: inline-block;
   background-color: crimson;
   width: 400px;
-  height: 100px;
+  height: 120px;
   padding: 20px;
   border-width: 5px;
   border-color: black;
