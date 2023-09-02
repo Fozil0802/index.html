@@ -38,3 +38,20 @@ p {
   border-style: solid;
   margin: 50px;
 }
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 7px;
+  text-transform: capitalize;
+  background-color: crimson;
+  color: white;
+  transition: all 0.2s ease;
+}
+.btn:hover{
+  background-color: blue;
+  border: 2px solid crimson;
+  color: black;
+  padding: 8px 20px;
+  font-weight: bold;
+}
