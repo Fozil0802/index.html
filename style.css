@@ -114,6 +114,9 @@ section {
   box-sizing: border-box;
   font-family: var(--Quicksand);
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.4;
   color: var(--dark);
@@ -295,4 +298,123 @@ padding: 1rem 0;
   color: var(--dark);
   text-decoration: none;
   text-transform: capitalize;
+  font-family: var(--Playfair);
 }
+/* end of design styling */
+/* start of blog styling */
+.blog{
+  background: #f9f9f9;
+  padding: 4.5rem 0;
+}
+.blog-content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.blog-img{
+  position: relative;
+}
+.blog-img span{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: var(--dark);
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.6rem;
+}
+.blog-text{
+  margin: 2.2rem 0;
+  padding: 0 1rem;
+}
+.blog-text span{
+  font-weight: 300;
+  display: block;
+  padding-bottom: .5rem;
+}
+blog-text h2{
+  font-family: var(--Playfair);
+  padding: 1rem 0;
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+.blog-text p{
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  padding-bottom: 1.2rem;
+}
+.blog-text a{
+  font-family: var(--Roboto);
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--dark);
+  color: #fff;
+  padding: .55rem 1.2rem;
+  background: var(--dark);
+  transition: all .5s ease;
+}
+.blog-text a:hover{
+  background: var(--exDark);
+}
+/* end of blog styling */
+
+/* start of about stylin */
+.about{
+  padding: 4.5rem 0;
+}
+.about-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  align-items: center;
+  }
+  .about-taxt{
+    margin: 2rem 0;
+  }
+  .about-taxt{
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    opacity: .8;
+  }
+/* end of about styling */
+
+/* start of footer styling */
+footer{
+  background: var(--dark);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.social-links a{
+  border: 2px solid #fff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 .3rem;
+  transition: all .5s ease;
+}
+.social-links a:hpver{
+  background: #fff;
+  color: var(--dark);
+}
+footer span {
+  margin-top: 1rem;
+  display: block;
+  font-family: var(--Playfair);
+  letter-spacing: 2px;
+}
+
+/* end of footer styling */
