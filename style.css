@@ -114,7 +114,7 @@ section {
   box-sizing: border-box;
   font-family: var(--Quicksand);
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -225,51 +225,51 @@ header {
 }
 /* end of header styling */
 /* start design styling */
-.desigin{
+.desigin {
   padding: 4.5rem 0;
 }
-.title{
-text-align: center;
-padding: 1rem 0;
+.title {
+  text-align: center;
+  padding: 1rem 0;
 }
-.title h2{
+.title h2 {
   font-family: var(--Playfair);
   font-size: 2.4rem;
 }
-.title p{
+.title p {
   text-transform: uppercase;
   padding: 0.6rem 0;
 }
-.desigin-content{
+.desigin-content {
   margin: 2rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.design-item{
+.design-item {
   cursor: pointer;
   margin: 0;
 }
- .design-img{
+.design-img {
   position: relative;
-  overflow: hidden; 
- }
- .design-img::after{
+  overflow: hidden;
+}
+.design-img::after {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3)
- }
- .design-img img{
-  transition: all .5s ease;
- }
- .design-item:hover img{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.design-img img {
+  transition: all 0.5s ease;
+}
+.design-item:hover img {
   transform: scale(1.2);
- }
- .design-img span:first-of-type{
+}
+.design-img span:first-of-type {
   position: absolute;
   z-index: 1;
   top: 10px;
@@ -277,8 +277,8 @@ padding: 1rem 0;
   background: var(--dark);
   padding: 0.25rem 1rem;
   color: #fff;
- }
- .design-img span:last-of-type{
+}
+.design-img span:last-of-type {
   position: absolute;
   z-index: 1;
   bottom: 10px;
@@ -286,15 +286,15 @@ padding: 1rem 0;
   color: #fff;
   font-weight: 700;
   font-size: 1.1rem;
- }
-.design-title{
+}
+.design-title {
   padding: 1rem;
   font-size: 1.2rem;
   text-align: center;
   width: 70%;
   margin: 0 auto;
 }
-.design-title a{
+.design-title a {
   color: var(--dark);
   text-decoration: none;
   text-transform: capitalize;
@@ -302,20 +302,20 @@ padding: 1rem 0;
 }
 /* end of design styling */
 /* start of blog styling */
-.blog{
+.blog {
   background: #f9f9f9;
   padding: 4.5rem 0;
 }
-.blog-content{
+.blog-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 2rem 0;
 }
-.blog-img{
+.blog-img {
   position: relative;
 }
-.blog-img span{
+.blog-img span {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -324,76 +324,76 @@ padding: 1rem 0;
   font-size: 1.4rem;
   padding: 0.3rem 0.6rem;
 }
-.blog-text{
+.blog-text {
   margin: 2.2rem 0;
   padding: 0 1rem;
 }
-.blog-text span{
+.blog-text span {
   font-weight: 300;
   display: block;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
-blog-text h2{
+blog-text h2 {
   font-family: var(--Playfair);
   padding: 1rem 0;
   font-size: 1.65rem;
   font-weight: 500;
 }
-.blog-text p{
+.blog-text p {
   font-weight: 300;
   font-size: 1.1rem;
   opacity: 0.9;
   padding-bottom: 1.2rem;
 }
-.blog-text a{
+.blog-text a {
   font-family: var(--Roboto);
   font-size: 1.1rem;
   text-decoration: none;
   color: var(--dark);
   color: #fff;
-  padding: .55rem 1.2rem;
+  padding: 0.55rem 1.2rem;
   background: var(--dark);
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.blog-text a:hover{
+.blog-text a:hover {
   background: var(--exDark);
 }
 /* end of blog styling */
 
 /* start of about stylin */
-.about{
+.about {
   padding: 4.5rem 0;
 }
-.about-content{
+.about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
   align-items: center;
-  }
-  .about-taxt{
-    margin: 2rem 0;
-  }
-  .about-taxt{
-    font-size: 1.1rem;
-    padding: 0.6rem 0;
-    opacity: .8;
-  }
+}
+.about-taxt {
+  margin: 2rem 0;
+}
+.about-taxt {
+  font-size: 1.1rem;
+  padding: 0.6rem 0;
+  opacity: 0.8;
+}
 /* end of about styling */
 
 /* start of footer styling */
-footer{
+footer {
   background: var(--dark);
   color: #fff;
   text-align: center;
   padding: 2rem 0;
 }
 
-.social-links{
+.social-links {
   display: flex;
   justify-content: center;
   margin-bottom: 1.4rem;
 }
-.social-links a{
+.social-links a {
   border: 2px solid #fff;
   color: #fff;
   width: 40px;
@@ -403,10 +403,10 @@ footer{
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  margin: 0 .3rem;
-  transition: all .5s ease;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
 }
-.social-links a:hpver{
+.social-links a:hpver {
   background: #fff;
   color: var(--dark);
 }
@@ -418,3 +418,43 @@ footer span {
 }
 
 /* end of footer styling */
+.navbar-nav i {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .navbar-nav a {
+    display: none;   
+  }
+  .navbar-nav i {
+    display: block;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity .5s ease;
+  }
+  .navbar-nav i :hover{
+    opacity: .7;
+  }
+  .banner-title {
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .desigin-content {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .blog-content {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  .about-content {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 3rem;
+    align-items: center;
+  }
+}
