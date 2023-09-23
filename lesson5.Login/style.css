@@ -1,0 +1,290 @@
+
+
+button{
+  width: 170px;
+  color: white;
+  background-color: rgba(28, 216, 230, 0.973);
+}
+p{
+  color: aqua;
+}
+.box{
+width: 100%;
+height: 100vh;
+background-color: rgb(15, 193, 216);
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.box-1{
+  width: 230px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+h1 {
+  background-color: blue;
+}
+p {
+  background-color: hsl(180, 89%, 7%);
+}
+.chapter {
+  color: rgb(153, 168, 168);
+  background-color: rgb(238, 230, 230);
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 30px;
+}
+#pool {
+  color: rgb(151, 168, 151);
+}
+.text-bolt {
+  font-weight: bold;
+}
+.mark {
+  background-color: blueviolet;
+}
+.del {
+  text-decoration: line-through;
+}
+.italic {
+  font-style: italic;
+}
+.box {
+  display: inline-block;
+  background-color: crimson;
+  width: 400px;
+  height: 120px;
+  padding: 20px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin: 50px;
+}
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 7px;
+  text-transform: capitalize;
+  background-color: crimson;
+  color: white;
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  background-color: blue;
+  border: 2px solid crimson;
+  color: black;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+nav {
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
+section div {
+  background-color: khaki;
+}
+section {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+  gap: 10px;
+}
+.box-1 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-relative {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+  margin-top: 50px;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Quicksand);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.4;
+  color: var(--dark);
+}
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/banner-bg.jpg) center/cover no-repeat fixed;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.2rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .logo a {
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+  text-decoration: none;
+  font-family: var(--Playfair);
+  letter-spacing: 1px;
+}
+.navbar-nav {
+  padding: 0.8rem 0 0.2rem 0;
+}
+.navbar-nav a {
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #ffff;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover {
+  opacity: 0.7;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffff;
+  margin-top: 9%;
+}
+.banner-title {
+  font-size: 5rem;
+  font-family: var(--Playfair);
+  line-height: 1.2;
+}
+.banner-title span {
+  font-family: var(--Playfair);
+  color: var(--exDark);
+}
+.banner p {
+  padding-left: 1rem 0 2rem 0;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: var(--Roboto);
+  font-weight: 300;
+  word-spacing: 2px;
+}
+.banner form {
+  background: #fff;
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.4rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-input {
+  font-family: var(--Roboto);
+  font-size: 1.2rem;
+  outline: none;
+  padding: 0.6rem 0;
+  border: none;
+}
+.search-input::placeholder {
+  text-transform: capitalize;
+}
+.search-btn {
+  width: 40px;
+  font-size: 1.2rem;
+  color: var(--dark);
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+} */
+/* end of header styling */
+/* start design styling */
+/* 
