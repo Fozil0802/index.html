@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  height: 565px;
+  padding: 10px;
+  background: linear-gradient(to top right, yellow, crimson, purple, purple);
+}
+.container .parents .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+.container .parents .navbar .grad {
+  color: white;
+  font-size: 25px;
+  font-weight: 650px;
+  /* text-decoration: uppercase; */
+
+}
+
+.container .parents .navbar .box1 {
+  color: white;
+  gap: 100px;
+  display: flex;
+  font-weight: 650px;
+  font-size: 20px;
+  margin-left: 500px;
+  /* text-transform: uppercase; */
+}
+.container .parents .navbar .box1 a {
+  color: white;
+  font-weight: 650px;
+  text-decoration: none;
+}
+.container .parents .navbar .icon {
+  margin-right: 20px;
+}
+
+.container .parents .header_nav {
+  width: 400px;
+  height: 200px;
+  margin-top: 90px;
+}
+.container .parents .header_nav .head1 {
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+}
+.header .text1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 650px;
+  margin-top: 15px;
+}
+.header_nav .text2 {
+  color: white;
+  margin-top: 15px;
+}
+.header_nav .button {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.header_nav .button .button1 {
+  color: white;
+  background-color: rgb(231, 36, 75);
+  border-radius: 20px;
+  border: none;
+  margin-top: 40px;
+  width: 100px;
+  height: 25px;
+}
+.header .rasim .rasim1 {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.foter {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.share {
+  display: flex;
+  color: white;
+  gap: 15px;
+  margin-right: 20px;
+}
+.foter .inter {
+  display: flex;
+  gap: 15px;
+  margin-left: 700px;
+}
