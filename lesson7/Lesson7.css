@@ -12,7 +12,7 @@
   border: none;
 }
 .container .parents .navbar {
-  background-image: url(tabiat3.img);
+  background-image: url(img/tabiat.jpg);
   width: 348px;
   height: 90px;
   background-repeat: no-repeat;
@@ -24,6 +24,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  color: white;
 }
 .container .parents .navbar .box2 .header {
   display: flex;
