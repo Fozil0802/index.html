@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 50px;
+}
+/* starting container1 section */
+.container1 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 2fr 7fr 1fr;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-areas:
+    "header header header "
+    "nav article ads"
+    "nav foot foot";
+  gap: 7px;
+}
+.head {
+  background-color: gold;
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  background-color: gold;
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article {
+  background-color: gold;
+  grid-area: article;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advertis {
+  background-color: gold;
+  grid-area: ads;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: gold;
+  grid-area: foot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end container1 section */
+
+/* <!-- starting contatiner2 section --> */
+
+.container2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 2fr 7fr 1fr;
+  grid-template-rows: 150px 400px 100px;
+  grid-template-areas:
+    "logo logo "
+    "saidebar main"
+    "saidebar footer";
+  gap: 7px;
+}
+.logo {
+  background-color: rgb(235, 222, 222);
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113%;
+  line-height: 20px;
+  height: 100px;
+  margin-top: 50px;
+}
+.said {
+  background-color: rgb(235, 222, 222);
+  grid-area: saidebar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 117%;
+  background-color: rgb(235, 222, 222);
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer1 {
+  width: 117%;
+  background-color: rgb(235, 222, 222);
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
