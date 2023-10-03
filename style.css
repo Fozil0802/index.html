@@ -5,7 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 300vh;
+  height: 500vh;
   align-items: center;
   justify-content: center;
   font-size: 20px;
@@ -28,21 +28,24 @@ body {
   grid-area: header;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 15px;
 }
 .navbar {
   background-color: gold;
   grid-area: nav;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 15px;
 }
 .article {
   background-color: gold;
   grid-area: article;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 15px;
 }
 .advertis {
   background-color: gold;
@@ -56,7 +59,8 @@ body {
   grid-area: foot;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 15px;
 }
 /* end container1 section */
 
@@ -77,12 +81,14 @@ body {
   background-color: rgb(235, 222, 222);
   grid-area: logo;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 15px;
   align-items: center;
   width: 113%;
   line-height: 20px;
   height: 100px;
   margin-top: 50px;
+  font-size: 45px;
 }
 .said {
   background-color: rgb(235, 222, 222);
@@ -90,6 +96,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
 .main {
   width: 117%;
@@ -98,6 +105,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
 .footer1 {
   width: 117%;
@@ -106,4 +114,225 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
+/* starting container3 section */
+.container3 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 4fr, 3fr;
+  grid-template-rows: 100px 250px 150px 200px 100px;
+  grid-template-areas:
+    "header header header header "
+    "nav1 upperl upperc upperr"
+    "nav1 middle middle middle"
+    "nav1 lowerc lowerc lowerc"
+    "Sticky Sticky Sticky Sticky";
+  border: 2px solid black;
+}
+.head1 {
+  background-color: rgb(202, 194, 194);
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.navbar1 {
+  background-color: rgb(231, 169, 87);
+  grid-area: nav1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.upper1 {
+  background-color: rgb(99, 96, 96);
+  grid-area: upperl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 5px 0 5px;
+}
+.upper2 {
+  background-color: red;
+  grid-area: upperc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 5px 0 5px;
+}
+.upper3 {
+  background-color: rgb(196, 187, 187);
+  grid-area: upperr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 5px 0 5px;
+}
+.middl {
+  background-color: blue;
+  grid-area: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+.lower {
+  background-color: rgb(228, 51, 27);
+  grid-area: lowerc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 5px 5px 5px;
+}
+.stic {
+  background-color: darkgrey;
+  grid-area: Sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+/* end container3 section */
+
+.container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-areas:
+    "bir1 bir1 ikki2"
+    "uch3 tort4 besh5"
+    "uch3 olti6 yetti7";
+
+  border: 4px solid green;
+}
+
+.bir {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: bir1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ikki {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: ikki2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uch {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: uch3;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.tort {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: tort4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.besh {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: besh5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.olti {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: olti6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yetti {
+  background-color: yellowgreen;
+  border: 5px solid green;
+  grid-area: yetti7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* <!-- ending container4 section --> */
+
+/* <!--starting container5 section  --> */
+.container5 {
+  width: 65%;
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
+  grid-template-rows: 150px 100px 100px;
+  grid-template-areas:
+    "head5 head5 head5"
+    "menu5 main5 right5"
+    "menu5 footer5 footer5";
+  border: 5px solid darkblue;
+}
+.head2 {
+  background-color: aqua;
+  grid-area: head5;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.menu {
+  background-color: aqua;
+  grid-area: menu5;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+.main1 {
+  background-color: aqua;
+  grid-area: main5;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.right1 {
+  background-color: aqua;
+  grid-area: right5;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.footer2 {
+  background-color: aqua;
+  grid-area: footer5;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* <!-- ending container5 section  --> */
