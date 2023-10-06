@@ -1,150 +1,92 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-.container {
-  width: 100%;
-  height: 300vh;
-  display: flex;
-  justify-content: center;
-}
-.parents {
-  width: 90%;
-  height: 200vh;
-  border: 2px solid red;
-}
-.child1 {
-  width: 100%;
-  height: 4vh;
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  border: 2px solid black;
-  background: var(--obs-light-grey, #f3f3f5);
-  justify-content: space-between;
-  padding: 10px;
-}
-.home {
-  color: #000;
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.hol {
-  color: #997f72;
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.icon1 {
-  width: 8px;
-  height: 6px;
-  flex-shrink: 0;
-}
-.icon2 {
-  width: 16px;
-  height: 16px;
-  border: none;
-}
-.child2 {
-  width: 100%;
-  height: 7vh;
+/* <!-- starting colorful section --> */
 
-  background: #2c2c2e;
+.main .container {
+  position: relative;
   display: flex;
-  align-items: center;
+  width: 30%;
+  height: 200px;
+  /* background-color: red; */
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  font-weight: 800;
+  font-size: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.text1 {
-  display: flex;
-  gap: 20px;
-  color: var(--primary-white, #fff);
-  font-family: Gilroy-Regular;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.container .c {
+  color: blue;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  filter: opacity(60%);
+  z-index: 2;
 }
-.icon3 {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  color: black;
+.container .o1 {
+  color: green;
+  position: absolute;
+  top: 50px;
+  left: 34px;
+  filter: opacity(70%);
+  z-index: 3;
 }
-.icon4 {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  fill: #2c2c2e;
+.container .l {
+  color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 82px;
+  filter: opacity(85%);
+  z-index: 1;
 }
-.icon5 {
-  width: 16.941px;
-  height: 24px;
-  flex-shrink: 0;
-  fill: #2c2c2e;
+.container .o2 {
+  color: rgb(182, 14, 56);
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  filter: opacity(85%);
+  z-index: 2;
 }
-.child3 {
+.container .r {
+  color: rgba(241, 51, 3, 0.966);
+  position: absolute;
+  top: 50px;
+  left: 155px;
+  filter: opacity(75%);
+  z-index: 1;
+}
+.container .f {
+  color: rgb(230, 19, 99);
+  position: absolute;
+  top: 50px;
+  left: 195px;
+  filter: opacity(70%);
+  z-index: 2;
+}
+.container .u {
+  color: rgb(49, 83, 196);
+  position: absolute;
+  top: 50px;
+  left: 230px;
+  filter: opacity(85%);
+  z-index: 1;
+}
+.container .l1 {
+  color: rgb(245, 245, 8);
+  position: absolute;
+  top: 50px;
+  left: 275px;
+  filter: opacity(75%);
+  z-index: 2;
+}
+.main {
   width: 100%;
-  height: 100vh;
-  border: 2px solid black;
-  background: var(--primary-black, #000);
+  height: 250px;
   display: flex;
-}
-
-.child3_nav {
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid green;
 }
-.icon6 {
-  width: 185.604px;
-  height: 33.014px;
-  color: var(--primary-white, #fff);
-  margin-right: 410px;
-}
-.text2 {
-  width: 676px;
-  height: 227px;
-  flex-shrink: 0;
-  color: var(--primary-white, #fff);
-  font-family: Gilroy-Regular;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 142.829%;
-  letter-spacing: 22.4px;
-  text-transform: uppercase;
-  margin: 32px 0px 80px 80px;
-}
-.btn {
-  display: inline-flex;
-  height: 66px;
-  padding: 28px 40px 21px 40px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 40px;
-  background: var(--primary-white, #fff);
-  color: #000;
-  font-family: Gilroy-Bold;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2.24px;
-  text-transform: uppercase;
-  margin-right: 300px;
-}
+/* <!-- ending colorful section --> */
