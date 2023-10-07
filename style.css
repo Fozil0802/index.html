@@ -5,7 +5,7 @@
 }
 .container {
   width: 100%;
-  height: 250vh;
+  height: 500vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,6 +223,7 @@
   left: 25%;
   position: absolute;
   z-index: 2;
+  text-shadow: 0px 0px 50px black;
 }
 .main1 .a2 {
   width: 50px;
@@ -246,5 +247,206 @@
   top: 41%;
   right: 33%;
   position: absolute;
-  z-index: 6;
+  z-index: 4;
 }
+/* <!-- ending ABC section --> */
+
+/* <!-- starting rosalina section --> */
+.rosalina {
+  width: 95%;
+  height: 150vh;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  width: 100%;
+  height: 13vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  color: rgb(172, 165, 165);
+}
+.btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.navbar_text {
+  height: 50px;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* position: absolute;
+  left: 50px; */
+}
+.header {
+  width: 100%;
+  height: 85vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.rosalina_text {
+  width: 50%;
+  height: 50px;
+  font-size: 6rem;
+  font-weight: 900;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.adam_img {
+  width: 28%;
+  height: 72vh;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 418px;
+}
+.geometric {
+  width: 25%;
+  height: 35vh;
+  border: 2px solid red;
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+.geometric .circle {
+  width: 70px;
+  height: 70px;
+  /* border: 2px solid black; */
+  background-color: rgb(14, 221, 193);
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  z-index: 2;
+}
+.triangle {
+  width: 100px;
+  height: 100px;
+  /* border: 2px solid black; */
+  position: absolute;
+
+  background: linear-gradient(to bottom right, rgb(54, 53, 53) 50%, black 50%);
+  transform: rotate(25deg);
+  top: 60px;
+  left: 95px;
+  z-index: 1;
+}
+.header_text {
+  /* width: 20%;
+  height: 50px; */
+  /* color: red; */
+  position: absolute;
+  top: 250px;
+  right: 350px;
+}
+.text1 {
+  width: 70%;
+  height: 10px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 100px;
+
+  color: white;
+  font-weight: bold;
+}
+.text2 {
+  width: 70%;
+  height: 10px;
+  position: absolute;
+  color: white;
+  top: 200px;
+}
+.info3 {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+}
+.info2 {
+  position: absolute;
+  top: 30px;
+}
+.about {
+  width: 100%;
+  height: 52vh;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+}
+.about1 {
+  width: 50%;
+  height: 52vh;
+  /* border: 2px solid yellow; */
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_me {
+  width: 92%;
+  height: 52vh;
+  /* display: flex;
+  align-items: center; */
+  position: absolute;
+  left: 130px;
+  top: 40px;
+}
+.you {
+  font-size: 1.5rem;
+}
+.year {
+  /* width: 50px;
+  height: 50px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 215px;
+}
+.h30 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 130px;
+  font-size: 3rem;
+  color: orangered;
+}
+
+.about2 .any {
+  position: absolute;
+  color: white;
+  top: 100px;
+  right: 200px;
+  font-size: 2rem;
+}
+.let {
+  position: absolute;
+  color: white;
+  top: 200px;
+  right: 370px;
+}
+.info4 {
+  position: absolute;
+  bottom: 75px;
+  right: 385px;
+}
+/* <!-- ending rosalina section --> */
