@@ -3,9 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 100%;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+}
 /* <!-- starting colorful section --> */
 
-.main .container {
+.main_nav {
   position: relative;
   display: flex;
   width: 30%;
@@ -17,7 +27,7 @@
   font-size: 5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.container .c {
+.main_nav .c {
   color: blue;
   position: absolute;
   top: 50px;
@@ -25,7 +35,7 @@
   filter: opacity(60%);
   z-index: 2;
 }
-.container .o1 {
+.main_nav .o1 {
   color: green;
   position: absolute;
   top: 50px;
@@ -33,7 +43,7 @@
   filter: opacity(70%);
   z-index: 3;
 }
-.container .l {
+.main_nav .l {
   color: yellow;
   position: absolute;
   top: 50px;
@@ -41,7 +51,7 @@
   filter: opacity(85%);
   z-index: 1;
 }
-.container .o2 {
+.main_nav .o2 {
   color: rgb(182, 14, 56);
   position: absolute;
   top: 50px;
@@ -49,7 +59,7 @@
   filter: opacity(85%);
   z-index: 2;
 }
-.container .r {
+.main_nav .r {
   color: rgba(241, 51, 3, 0.966);
   position: absolute;
   top: 50px;
@@ -57,7 +67,7 @@
   filter: opacity(75%);
   z-index: 1;
 }
-.container .f {
+.main_nav .f {
   color: rgb(230, 19, 99);
   position: absolute;
   top: 50px;
@@ -65,7 +75,7 @@
   filter: opacity(70%);
   z-index: 2;
 }
-.container .u {
+.main_nav .u {
   color: rgb(49, 83, 196);
   position: absolute;
   top: 50px;
@@ -73,7 +83,7 @@
   filter: opacity(85%);
   z-index: 1;
 }
-.container .l1 {
+.main_nav .l1 {
   color: rgb(245, 245, 8);
   position: absolute;
   top: 50px;
@@ -90,3 +100,151 @@
   border: 2px solid green;
 }
 /* <!-- ending colorful section --> */
+/* starting ABC section */
+.main1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150vh;
+  border: 2px solid red;
+}
+.main1 .box {
+  width: 80%;
+  height: 120vh;
+  border: 2px solid black;
+  position: relative;
+}
+
+.box .A {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, rgb(230, 19, 99) 50%, brown 50%);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  z-index: 1;
+  filter: opacity(90%);
+}
+.box .B {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(243, 16, 16) 50%,
+    rgba(241, 51, 3, 0.966) 50%
+  );
+  transform: rotate(45deg);
+  position: absolute;
+  top: 24%;
+  right: 20%;
+  z-index: 1;
+  filter: opacity(90%);
+}
+.box .C {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom right, red 50%, rgb(236, 138, 80) 50%);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 20%;
+  right: 38%;
+  z-index: 1;
+  filter: opacity(85%);
+}
+
+.box .D {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(5, 68, 5) 50%,
+    rgb(72, 163, 72) 50%
+  );
+  transform: rotate(45deg);
+  position: absolute;
+  top: 16%;
+  right: 38%;
+  filter: opacity(95%);
+  z-index: 4;
+}
+
+.box .E {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(6, 48, 6);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 38%;
+  right: 54%;
+  filter: opacity(95%);
+  z-index: 3;
+}
+
+.box .F {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(41, 155, 41) 50%,
+    rgb(5, 68, 5) 50%
+  );
+  transform: rotate(45deg);
+  position: absolute;
+  top: 37%;
+  right: 34%;
+  filter: opacity(95%);
+  z-index: 2;
+}
+.box .G {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(
+    to bottom right,
+    aqua 50%,
+    rgba(7, 146, 197, 50.541) 50%
+  );
+  transform: rotate(45deg);
+  position: absolute;
+  top: 30%;
+  right: 42%;
+  filter: opacity(95%);
+  z-index: 5;
+}
+.box .a1 {
+  width: 50px;
+  height: 50px;
+  font-size: 6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+  top: 27%;
+  left: 25%;
+  position: absolute;
+  z-index: 2;
+}
+.main1 .a2 {
+  width: 50px;
+  height: 50px;
+  font-size: 6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+  top: 37%;
+  left: 42%;
+  position: absolute;
+  z-index: 6;
+}
+.main1 .a3 {
+  width: 50px;
+  height: 50px;
+  font-size: 6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: white;
+  top: 41%;
+  right: 33%;
+  position: absolute;
+  z-index: 6;
+}
