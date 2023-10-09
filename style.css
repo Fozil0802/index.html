@@ -5,7 +5,7 @@
 }
 .container {
   width: 100%;
-  height: 500vh;
+  height: 420vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +20,6 @@
   display: flex;
   width: 30%;
   height: 200px;
-  /* background-color: red; */
   justify-content: center;
   align-items: center;
   font-weight: 800;
@@ -223,7 +222,7 @@
   left: 25%;
   position: absolute;
   z-index: 2;
-  text-shadow: 0px 0px 50px black;
+  text-shadow: 11px -1px 2px black;
 }
 .main1 .a2 {
   width: 50px;
@@ -236,6 +235,7 @@
   left: 42%;
   position: absolute;
   z-index: 6;
+  text-shadow: -11px -7px 2px black;
 }
 .main1 .a3 {
   width: 50px;
@@ -248,6 +248,15 @@
   right: 33%;
   position: absolute;
   z-index: 4;
+  text-shadow: 11px -1px 2px black;
+}
+.sear {
+  color: white;
+  top: 13%;
+  left: 48%;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(90deg);
 }
 /* <!-- ending ABC section --> */
 
@@ -264,7 +273,6 @@
 .navbar {
   width: 100%;
   height: 13vh;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
   padding: 15px;
@@ -281,17 +289,58 @@
 }
 .navbar_text {
   height: 50px;
-  gap: 50px;
+  gap: 40px;
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+.home {
   color: white;
-  /* position: absolute;
-  left: 50px; */
+  text-decoration: none;
+}
+.abouts {
+  color: white;
+  text-decoration: none;
+}
+.service {
+  color: white;
+  text-decoration: none;
+}
+.works {
+  color: white;
+  text-decoration: none;
+}
+.january {
+  color: white;
+  text-decoration: none;
+}
+.blog {
+  color: white;
+  text-decoration: none;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icon .icon2 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  background-color: orangered;
 }
 .header {
   width: 100%;
   height: 85vh;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   position: relative;
@@ -304,11 +353,10 @@
   font-weight: 900;
   position: absolute;
   top: 50px;
-  left: 20px;
+  left: 10px;
   text-align: center;
   color: white;
   z-index: 1;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .adam_img {
   width: 28%;
@@ -318,6 +366,7 @@
   top: 20px;
   left: 418px;
 }
+
 .geometric {
   width: 25%;
   height: 35vh;
@@ -329,7 +378,6 @@
 .geometric .circle {
   width: 70px;
   height: 70px;
-  /* border: 2px solid black; */
   background-color: rgb(14, 221, 193);
   border-radius: 50%;
   border: none;
@@ -341,7 +389,6 @@
 .triangle {
   width: 100px;
   height: 100px;
-  /* border: 2px solid black; */
   position: absolute;
 
   background: linear-gradient(to bottom right, rgb(54, 53, 53) 50%, black 50%);
@@ -351,9 +398,6 @@
   z-index: 1;
 }
 .header_text {
-  /* width: 20%;
-  height: 50px; */
-  /* color: red; */
   position: absolute;
   top: 250px;
   right: 350px;
@@ -388,14 +432,12 @@
 .about {
   width: 100%;
   height: 52vh;
-  /* border: 2px solid red; */
   position: relative;
   display: flex;
 }
 .about1 {
   width: 50%;
   height: 52vh;
-  /* border: 2px solid yellow; */
   position: absolute;
   color: white;
   display: flex;
@@ -405,8 +447,6 @@
 .about_me {
   width: 92%;
   height: 52vh;
-  /* display: flex;
-  align-items: center; */
   position: absolute;
   left: 130px;
   top: 40px;
@@ -415,8 +455,6 @@
   font-size: 1.5rem;
 }
 .year {
-  /* width: 50px;
-  height: 50px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   left: 40px;
