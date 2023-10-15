@@ -5,7 +5,7 @@
 }
 .container {
   width: 100%;
-  height: 350vh;
+  height: 400vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -166,7 +166,7 @@
   border: 10px solid aqua;
   border-radius: 50%;
   position: absolute;
-  top: 200px;
+  top: 190px;
 }
 .circle2 {
   width: 180px;
@@ -225,7 +225,7 @@
 h3 {
   color: aqua;
   position: absolute;
-  bottom: 200px;
+  bottom: 190px;
   cursor: pointer;
 }
 .oc_img {
@@ -239,8 +239,360 @@ h3 {
 /* <!-- srarting child3 secrion --> */
 
 /* <!-- sending child2 secrion --> */
-.child3{
+.child3 {
   width: 95%;
-  height: 100vh;
+  height: 110vh;
   border: 2px solid black;
+  background-color: rgb(105, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.product {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 350px;
+  z-index: 999;
+}
+.fire {
+  width: 500px;
+  height: 500px;
+}
+.fire1 {
+  width: 45px;
+  height: 185px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 100px;
+  left: 550px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire11 3s linear alternate 10;
+}
+@keyframes fire11 {
+  from {
+    top: 420px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 380px;
+  }
+}
+.fire2 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 595px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire21 3s linear alternate 10;
+}
+@keyframes fire21 {
+  from {
+    top: 400px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 350px;
+  }
+}
+.fire3 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 635px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire31 4s linear alternate 10;
+}
+@keyframes fire31 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 300px;
+  }
+}
+.fire4 {
+  width: 45px;
+  height: 180px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 680px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire41 4s linear alternate 10;
+}
+@keyframes fire41 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 290px;
+  }
+}
+.fire5 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 720px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire51 3s linear alternate 10;
+}
+@keyframes fire51 {
+  from {
+    top: 400px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 350px;
+  }
+}
+.fire6 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 720px;
+  border-radius: 30px;
+  border: none;
+  z-index: 3;
+  animation: fire61 3s linear alternate 10;
+}
+@keyframes fire61 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 300px;
+  }
+}
+.fire7 {
+  width: 35px;
+  height: 100px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 755px;
+  border-radius: 30px;
+  border: none;
+  z-index: 4;
+  animation: fire71 3s linear alternate 10;
+}
+@keyframes fire71 {
+  from {
+    top: 450px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 430px;
+  }
+}
+.fire8 {
+  width: 45px;
+  height: 250px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 720px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire81 3s linear alternate 10;
+}
+@keyframes fire81 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(11.34deg 99.09% 42.94%);
+    top: 300px;
+  }
+}
+.fire9 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 680px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire91 3s linear alternate 10;
+}
+@keyframes fire91 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(11.34deg 99.09% 42.94%);
+    top: 240px;
+  }
+}
+.fire10 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 635px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire101 3s linear alternate 10;
+}
+@keyframes fire101 {
+  from {
+    top: 350px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(11.34deg 99.09% 42.94%);
+    top: 260px;
+  }
+}
+.fire11 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 595px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire111 3s linear alternate 10;
+}
+@keyframes fire111 {
+  from {
+    top: 370px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(11.34deg 99.09% 42.94%);
+    top: 320px;
+  }
+}
+.fire12 {
+  width: 45px;
+  height: 200px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 550px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire121 3s linear alternate 10;
+}
+@keyframes fire121 {
+  from {
+    top: 400px;
+    background: goldenrod;
+  }
+  to {
+    background: orangered;
+    top: 360px;
+  }
+}
+.fire13 {
+  width: 45px;
+  height: 150px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 510px;
+  border-radius: 30px;
+  border: none;
+  z-index: 2;
+  animation: fire131 3s linear alternate 10;
+}
+@keyframes fire131 {
+  from {
+    top: 440px;
+    background: hsl(52.27deg 94.29% 72.55%);
+  }
+  to {
+    background: hsl(52.27deg 94.29% 72.55%);
+    top: 400px;
+  }
+}
+.fire14 {
+  width: 45px;
+  height: 150px;
+  border: 2px solid black;
+  border: none;
+  background: gold;
+  position: absolute;
+  bottom: 150px;
+  left: 510px;
+  border-radius: 30px;
+  border: none;
+  z-index: 1;
+  animation: fire141 3s linear alternate 10;
+}
+@keyframes fire141 {
+  from {
+    top: 410px;
+    background: gold;
+  }
+  to {
+    background: orangered;
+    top: 370px;
+  }
 }
