@@ -1,5 +1,8 @@
 /* starting navbar */
 @media (max-width: 835px) {
+  .container {
+    height: 370vh;
+  }
   .nav_img {
     width: 130px;
     height: 100px;
@@ -17,6 +20,9 @@
   }
 }
 @media (max-width: 429px) {
+  .container {
+    height: 500vh;
+  }
   .navbar {
     height: 74px;
     justify-content: space-between;
@@ -40,9 +46,10 @@
 /* starting header1 */
 @media (max-width: 835px) {
   .header1 {
-   display: flex;
-   flex-direction: column-reverse;
-
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .text1 {
     height: 420px;
@@ -50,6 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 85px;
   }
   .text11 {
     width: 480px;
@@ -85,25 +93,28 @@
   }
 }
 @media (max-width: 429px) {
+  .header1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 100px;
+  }
   .proud_img {
     width: 323px;
-    height: 324px;
-    position: absolute;
-    left: 0;
+    height: 334px;
+    margin-right: 170px;
   }
   .best {
     font-size: 18px;
   }
   .text11 {
-    width: 349px;
+    width: 389px;
     height: 38px;
     font-size: 18px;
   }
   .text12 {
-    width: 306px;
+    width: 320px;
     height: 72px;
     font-size: 16px;
-    flex-shrink: 0;
   }
   .btn1 {
     height: 15px;
@@ -122,42 +133,97 @@
   }
   .text1 {
     height: 320px;
-    left: 100px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    left: 45px;
-    top: 300px;
+    left: 90px;
   }
 }
 /* ending header1 */
 /* starting header2 */
-@media(max-width:835px){
-  .header2{
-    display: flex;
+@media (max-width: 835px) {
+  .header2 {
+    width: 100%;
+    height: 80vh;
     flex-direction: column;
     gap: 38px;
   }
-  .school_img{
+  .school_img {
     width: 450px;
     height: 400px;
   }
-  .text2{
+  .text2 {
     gap: 40px;
   }
-  .text21{
+  .text21 {
     width: 95px;
     height: 30px;
     font-size: 30px;
   }
-  .text22{
+  .text22 {
     width: 450px;
     height: 300px;
     font-size: 20px;
     line-height: normal;
   }
-
+}
+@media (max-width: 429px) {
+  .header2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .school_img {
+    width: 300.122px;
+    height: 276px;
+  }
+  .text2 {
+    gap: 30px;
+  }
+  .text21 {
+    width: 90px;
+    height: 29px;
+    font-size: 32px;
+  }
+  .text22 {
+    width: 300px;
+    height: 363px;
+    font-size: 16px;
+  }
 }
 /* ending header2 */
+/* startig footer */
+@media (max-width: 835px) {
+  .footer {
+    width: 100%;
+    height: 2100px;
+  }
+  .footer_text1 {
+    width: 400px;
+    height: 100px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer_nav {
+    width: 70%;
+    height: 2050px;
+    gap: 40px;
+  }
+}
+@media (max-width: 429px) {
+  .footer {
+    width: 100%;
+    height: 2250px;
+  }
+  .footer_text1 {
+    width: 330px;
+    height: 100px;
+    flex-shrink: 0;
+    font-size: 32px;
+  }
+  .footer_nav {
+    width: 70%;
+    height: 2200px;
+    gap: 25px;
+  }
+}
+/* endig footer */
