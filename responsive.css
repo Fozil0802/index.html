@@ -1,5 +1,9 @@
-/* starting navbar */
 @media (max-width: 835px) {
+  /* starting navbar */
+
+  .container {
+    height: 470vh;
+  }
   .nav_img {
     width: 130px;
     height: 100px;
@@ -15,34 +19,14 @@
     height: 40px;
     font-size: 16px;
   }
-}
-@media (max-width: 429px) {
-  .navbar {
-    height: 74px;
-    justify-content: space-between;
-    padding: 16px;
-  }
-  .nav_img {
-    width: 80px;
-    height: 57px;
-  }
-  .nav_items {
-    display: none;
-  }
-  .nav_btn {
-    display: none;
-  }
-  .nav_burger {
-    display: block;
-  }
-}
-/* ending navbar */
-/* starting header1 */
-@media (max-width: 835px) {
-  .header1 {
-   display: flex;
-   flex-direction: column-reverse;
+  /* ending navbar */
 
+  /* starting header1 */
+  .header1 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .text1 {
     height: 420px;
@@ -50,6 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 85px;
   }
   .text11 {
     width: 480px;
@@ -83,27 +68,120 @@
     width: 560px;
     height: 360px;
   }
+  /* ending header1 */
+  /* starting header2 */
+  .header2 {
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+    gap: 38px;
+  }
+  .school_img {
+    width: 450px;
+    height: 400px;
+  }
+  .text2 {
+    gap: 40px;
+  }
+  .text21 {
+    width: 95px;
+    height: 30px;
+    font-size: 30px;
+  }
+  .text22 {
+    width: 450px;
+    height: 300px;
+    font-size: 20px;
+    line-height: normal;
+  }
+  /* ending header2*/
+
+  /* startig footer */
+  .footer {
+    width: 100%;
+    height: 2100px;
+  }
+  .footer_text1 {
+    width: 400px;
+    height: 100px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer_nav {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    gap: 40px;
+  }
+  /* endig footer */
+  /* starting header3 */
+  .footer {
+    height: 180vh;
+  }
+  .header3_nav {
+    height: 150vh;
+  }
+  .nav6,
+  .nav7,
+  .nav8,
+  .nav9,
+  .nav10 {
+    width: 290px;
+    height: 490px;
+  }
+  /* ending header3 */
 }
+
 @media (max-width: 429px) {
+  /* starting navbar */
+
+  .container {
+    height: 700vh;
+  }
+  .navbar {
+    height: 74px;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  .nav_img {
+    width: 80px;
+    height: 57px;
+  }
+  .nav_items {
+    display: none;
+  }
+  .nav_btn {
+    display: none;
+  }
+  .nav_burger {
+    display: block;
+  }
+  /* ending navbar */
+
+  /* starting header1 */
+  .header1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 100px;
+  }
   .proud_img {
     width: 323px;
-    height: 324px;
-    position: absolute;
-    left: 0;
+    height: 334px;
+    margin-right: 170px;
   }
   .best {
     font-size: 18px;
   }
   .text11 {
-    width: 349px;
+    width: 325px;
     height: 38px;
     font-size: 18px;
   }
   .text12 {
-    width: 306px;
+    width: 320px;
     height: 72px;
     font-size: 16px;
-    flex-shrink: 0;
   }
   .btn1 {
     height: 15px;
@@ -122,42 +200,71 @@
   }
   .text1 {
     height: 320px;
-    left: 100px;
-
+    left: 60px;
+  }
+  /* ending header1 */
+  /* starting header2 */
+  .header2 {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    left: 45px;
-    top: 300px;
+    gap: 35px;
   }
-}
-/* ending header1 */
-/* starting header2 */
-@media(max-width:835px){
-  .header2{
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+  .school_img {
+    width: 300.122px;
+    height: 276px;
   }
-  .school_img{
-    width: 450px;
-    height: 400px;
+  .text2 {
+    gap: 30px;
   }
-  .text2{
-    gap: 40px;
+  .text21 {
+    width: 90px;
+    height: 29px;
+    font-size: 32px;
   }
-  .text21{
-    width: 95px;
-    height: 30px;
-    font-size: 30px;
+  .text22 {
+    width: 300px;
+    height: 363px;
+    font-size: 16px;
   }
-  .text22{
-    width: 450px;
-    height: 300px;
-    font-size: 20px;
-    line-height: normal;
-  }
+  /* ending header2 */
 
+  /* startig footer */
+  .footer {
+    width: 100%;
+    height: 2250px;
+  }
+  .footer_text1 {
+    width: 330px;
+    height: 100px;
+    flex-shrink: 0;
+    font-size: 32px;
+  }
+  .footer_nav {
+    width: 70%;
+    height: 2200px;
+    gap: 25px;
+  }
+  /* endig footer */
+  /* starting header3 */
+  .header3 {
+    gap: 55px;
+  }
+  .header3_text1 {
+    width: 115px;
+    height: 29px;
+    font-size: 32px;
+  }
+  .header3_nav {
+    gap: 55px;
+  }
+  .nav6,
+  .nav7,
+  .nav8,
+  .nav9,
+  .nav10 {
+    width: 301px;
+    height: 540px;
+  }
+  /* ending header3 */
 }
-/* ending header2 */
